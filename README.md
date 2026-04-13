@@ -6,18 +6,18 @@ Companion code for the technical blog "LangChain: Building Modular LLM Applicati
 
 A complete, hands-on implementation of every LangChain component — from basic LLM calls to a full RAG pipeline with memory — written as clean, well-commented Jupyter Notebooks.
 
- Project Structure
-langchain-blog-project/
-├── notebooks/
-│   ├── 01_llm_chatmodel.ipynb       # LLMs, Chat Models, streaming, batching
-│   ├── 02_prompt_templates.ipynb    # ChatPromptTemplate, few-shot prompting
-│   ├── 03_chains_lcel.ipynb         # LCEL pipes, sequential & parallel chains
-│   ├── 04_memory.ipynb              # Buffer, Window, Summary memory
-│   ├── 05_agents_tools.ipynb        # ReAct agents, custom tools, Wikipedia
-│   └── 06_rag_pipeline.ipynb        # Full RAG system with memory             
-├── .env.example                     # API key template
-├── requirements.txt
-└── README.md
+# Project Structure
+ # langchain-blog-project/
+# ├── notebooks/
+# │   ├── 01_llm_chatmodel.ipynb       # LLMs, Chat Models, streaming, batching
+# │   ├── 02_prompt_templates.ipynb    # ChatPromptTemplate, few-shot prompting
+# │   ├── 03_chains_lcel.ipynb         # LCEL pipes, sequential & parallel chains
+# │   ├── 04_memory.ipynb              # Buffer, Window, Summary memory
+# │   ├── 05_agents_tools.ipynb        # ReAct agents, custom tools, Wikipedia
+# │   └── 06_rag_pipeline.ipynb        # Full RAG system with memory             
+# ├── .env.example                     # API key template
+# ├── requirements.txt
+# └── README.md
 
  Quick Start
 1. Clone the repo
